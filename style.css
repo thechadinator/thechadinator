@@ -1,0 +1,76 @@
+#life {
+  font-family: Arial;
+  text-align: center;
+  font-size: 24px;
+  color: darkblue;
+  width: 75%;
+  margin: auto;
+  border: 3px darkblue solid;
+  padding: 10px;
+}
+
+.me {
+  color: darkblue;
+  font-family: Arial;
+  font-size: bold;
+  text-align: center; 
+  background-color: lightblue;
+  border-color: darkblue;
+  border-left-style: solid;
+  border-right-style: solid;
+  position: sticky;
+  top: 60px;
+}
+
+/*The sticky positioning and top 0 settings on this heading let the heading "Colin Mason" scroll with the user.*/
+
+h1 {
+  color: darkblue;
+  font-family: Arial;
+  font-size: bold;
+  text-align: center;
+  background-color: lightblue;
+  border-color: darkblue;
+  border-style: solid;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+}
+
+body {
+  background-color: #DEF4FF;
+}
+
+.list {
+  font-family: Helvetica;
+  color: darkblue;
+  border: 3px darkblue solid;
+  font-size: 18px;
+  width: 75%;
+  padding: 5px;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+/*The block display and max-width settings on these two images enable the image to be centered.*/
+
+.image {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 360px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.brigade {
+  margin-left: auto;
+  display: block;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+  width: 480px;
+  border: 5px darkblue solid;
+}
