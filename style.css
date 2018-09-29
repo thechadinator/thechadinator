@@ -49,5 +49,7 @@ body {
 
 .image {
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
