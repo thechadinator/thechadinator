@@ -12,7 +12,7 @@
 .me {
   color: darkblue;
   font-family: Arial;
-  font-size: bold;
+  font-weight: bold;
   text-align: center; 
   background-color: lightblue;
   border-color: darkblue;
@@ -27,7 +27,7 @@
 h1 {
   color: darkblue;
   font-family: Arial;
-  font-size: bold;
+  font-weight: bold;
   text-align: center;
   background-color: lightblue;
   border-color: darkblue;
