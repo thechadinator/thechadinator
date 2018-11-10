@@ -12,11 +12,10 @@
     <img class="image" src="https://i.gyazo.com/24b922f554e937293ec72d2ac68bd06f.png" alt="Most recent picture of me, in my new dorm at FGCU.">
  
   <h2 class="me">About Me</h2>
-
+    
    <p id="life">
        I was born in St. Joseph, Michigan on January 23, 2000. I was born three years prior to my brother, and in 2003 my family moved out of Michigan and into the sunny state of Florida. I am currently majoring in Computer Information Systems, with a focus in programming, at <a href="https://www.fgcu.edu/" target="_blank">Florida Gulf Coast University</a>. I've also held a job at <a href="https://www.culvers.com/restaurants/estero-fl" target="_blank">Culver's Of Estero</a> for almost two years now. Current interests include:
-   </p>  
-  
+        
       <div class="list">
          
           <ul>
@@ -28,25 +27,59 @@
           </ul>
         
       </div>
-    
+    </p>
+   
+   <svg id= "hobbies" height="130" width="1000">
+     <defs>
+        <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+         <stop offset="0%" style="stop-color:rgb(0,0,300);stop-opacity:1" />
+         <stop offset="100%" style="stop-color:rgb(255,0,200);stop-opacity:1" />
+        </linearGradient>
+     </defs>
+      <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+      <text fill="#eeeee" font-size="45" font-family="Verdana" x="50" y="86">Life Hobbies and Activities</text>
+    Sorry, your browser does not support inline SVG.
+   </svg>
+      
    <p id="life">
-       Over time, I have also gradually increased my coding skils. I have started to code both websites, such as this website, and have created small projects on <a href="https://scratch.mit.edu/users/thechadinator/" target="_blank">Scratch</a> and I am currently starting my education at FGCU as a Computer Information Systems major. I am currently taking <a href="https://sites.google.com/view/prof-v/lms/cop-1500" target="_blank">Intro to Computer Science</a> and rapidly learning how to code with <a href="https://www.codecademy.com/thechadinator" target="_blank"> HTML, CSS, and JavaScript.</a> Another huge hobby of mine is making music, so be sure to check me out on <a href="https://soundcloud.com/brigade-410042586" target="_blank">Soundcloud!</a> 
+       Over time, I have also gradually increased my coding skils. I have started to code both websites, such as this website, and have created small projects on <a href="https://scratch.mit.edu/users/thechadinator/" target="_blank">Scratch</a> and I am currently starting my education at FGCU as a Computer Information Systems major. I am currently taking <a href="https://sites.google.com/view/prof-v/lms/cop-1500" target="_blank">Intro to Computer Science</a> and rapidly learning how to code with <a href="https://www.codecademy.com/thechadinator" target="_blank"> HTML, CSS, and JavaScript.</a> I have also written a <a href="Fields%20Report.pdf" target="_blank">Field's Report,</a> defining the difference in fields of computer science. Another huge hobby of mine is making music, so be sure to check me out on <a href="https://soundcloud.com/brigade-410042586" target="_blank">Soundcloud!</a> One of the intro tracks to my new Mission 2 album is previewed in the audio track below. I have also started a YouTube channel for fun, and the intro video is shown below. I plan to expand both of these channels and update them regularly.   
+       
        
        <!--The below text creates an image with a link-->
        
            <a href="https://soundcloud.com/brigade-410042586" target="_blank">
            <img class="brigade" src="https://i.gyazo.com/f038698b17544c10399d5263384d265c.jpg" alt="Brigade Logo and Mission 2 Teaser">
            </a>
-
+    <audio controls class="music">
+      <source src="MISSION%202%203.0.wav" type="audio/wav">
+      Your browser doesn't support the audio element.
+      </audio>
+       
   </p>
+      
+  <video width="320" height="240" controls class="video">
+      <source src="Intro%20Video%20Final.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
     
   <h3 class="me">Achievements and Goals</h3>
       
     <p id="life">
-      When I was in high school, I was in the Cambridge program and in the Advanced Placement program. I came into college with over 30 college credits, and high SAT and ACT scores. These high scores enabled me to get scholarships from FGCU, such as the <a href="https://www.fgcu.edu/admissionsandaid/undergraduateadmissions/scholarshipsandwaivers.aspx" target="_blank">FGCU President's Gold Scholarship</a> and Bright Futures from the state. Some of my goals for the future include becoming an RA for South Village, becoming a teaching assistant for a computer science class, completing my 80 required service hours early, and staying on top of my homework.
+      When I was in High School, I was in the Cambridge program and in the Advanced Placement program. I came into college with over 30 college credits, and high SAT and ACT scores. These high scores enabled me to get scholarships from FGCU, such as the <a href="https://www.fgcu.edu/admissionsandaid/undergraduateadmissions/scholarshipsandwaivers.aspx" target="_blank">FGCU President's Gold Scholarship</a> and Bright Futures from the state. Some of my goals for the future include becoming an RA for South Village, becoming a teaching assistant for a computer science class, completing my 80 required service hours early, and staying on top of my homework.
     </p>
       
  <h4 class="me">Thanks so much for reading!</h4>
+      
+    <canvas id="myCanvas" width="500" height="100" style="border:4px solid #d3d3d3;">
+       Your browser does not support the HTML5 canvas tag.
+    </canvas>
+
+    <script>
+      var c = document.getElementById("myCanvas");
+      var ctx = c.getContext("2d");
+      ctx.font = "30px Arial";
+      ctx.fillText("Brigade: Mission 2",125,50);
+    </script>
     
     
 </body>
